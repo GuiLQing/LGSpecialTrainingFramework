@@ -1,0 +1,6 @@
+framework module LGSpecialTrainingFramework {
+  umbrella header "LGSpecialTrainingFramework.h"
+
+  export *
+  module * { export * }
+}

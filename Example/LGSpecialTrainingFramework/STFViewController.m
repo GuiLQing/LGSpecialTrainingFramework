@@ -7,6 +7,7 @@
 //
 
 #import "STFViewController.h"
+#import <LGSpecialTrainingFramework/LGSpecialTrainingFramework.h>
 
 @interface STFViewController ()
 
