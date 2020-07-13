@@ -59,6 +59,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 #pragma mark - 知识点课件对接
 
+/** 跳转知识点学习课件详细信息 */
+@property (nonatomic, copy) void (^ _Nullable jumpToLGKnowledgeBlock) (UIViewController *fromController,NSString *klgCode, BOOL onlyKlgCark);
+/** 知识点学习课件弹框 */
 @property (nonatomic, copy) void (^ _Nullable jumpToLGKnowledgeAlertBlock) (UIViewController *fromController, NSString *klgCode, void (^ _Nullable addStudyBlock) (void));
 
 #pragma mark - 模块跳转
