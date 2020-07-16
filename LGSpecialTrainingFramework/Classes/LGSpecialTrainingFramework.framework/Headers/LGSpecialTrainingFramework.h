@@ -18,4 +18,3 @@ FOUNDATION_EXPORT const unsigned char LGSpecialTrainingFrameworkVersionString[];
 
 
 #import "LGSpecialTrainingManager.h"
-#import "STFTrainingPaperModel.h"

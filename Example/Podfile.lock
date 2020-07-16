@@ -45,16 +45,26 @@ PODS:
   - LGAlertHUD/YJSheetView (1.1.3):
     - Masonry
     - YJExtensions
+  - LGBundle (1.0.4):
+    - LGBundle/BarBundle (= 1.0.4)
+    - LGBundle/Bundle (= 1.0.4)
+    - LGBundle/Manager (= 1.0.4)
+  - LGBundle/BarBundle (1.0.4):
+    - LGBundle/Manager
+  - LGBundle/Bundle (1.0.4):
+    - LGBundle/Manager
+  - LGBundle/Manager (1.0.4)
   - LGLog (1.0.2):
     - LGLog/LGLogManager (= 1.0.2)
     - LGLog/YJCocoaLumberjack (= 1.0.2)
   - LGLog/LGLogManager (1.0.2):
     - LGLog/YJCocoaLumberjack
   - LGLog/YJCocoaLumberjack (1.0.2)
-  - LGSpecialTrainingFramework (0.1.0):
+  - LGSpecialTrainingFramework (0.1.3):
     - AFNetworking (= 3.2.1)
     - JSONModel
     - LGAlertHUD
+    - LGBundle
     - MarqueeLabel (= 3.2.0)
     - Masonry
     - MBProgressHUD (= 1.1.0)
@@ -416,6 +426,7 @@ SPEC REPOS:
     - BlocksKit
     - JSONModel
     - LGAlertHUD
+    - LGBundle
     - LGLog
     - LGTalk
     - MarqueeLabel
@@ -449,8 +460,9 @@ SPEC CHECKSUMS:
   BlocksKit: 7f422b971407001178d181a43b99014ea2591fe6
   JSONModel: 02ab723958366a3fd27da57ea2af2113658762e9
   LGAlertHUD: d14fa1d2ab68418cf8f0a1fcb1a8d9eee6a4841b
+  LGBundle: adaa76cfc3924da41dbac1e9779ce00fa2e85d01
   LGLog: a58e542c6c99755d1b8eca492b2acf70a3115731
-  LGSpecialTrainingFramework: 0e61e2110dc6b27017ddaf2f4bf69c610feee2f1
+  LGSpecialTrainingFramework: c4a769bc7096fb200a1a6d5000a0927983ed441a
   LGTalk: fb1a148bf6755b7dd400be3d1068d81459a19a4c
   MarqueeLabel: 440a502b91a9179bd98f9fff00ba1150650a1c0e
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
