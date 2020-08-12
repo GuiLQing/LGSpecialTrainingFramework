@@ -28,6 +28,8 @@ NS_ASSUME_NONNULL_BEGIN
 /// 英语专业化过关训练基础URL
 @property (nonatomic, copy) NSString *specialTrainingBaseUrl;
 
+@property (nonatomic, assign) BOOL isAutoFillAnswer;
+
 #pragma mark - 数据推送字段
 
 /** 用户登录令牌 */

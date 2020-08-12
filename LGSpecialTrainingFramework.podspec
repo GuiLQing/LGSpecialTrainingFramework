@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'LGSpecialTrainingFramework'
-  s.version          = '0.1.3'
+  s.version          = '0.1.6'
   s.summary          = 'A short description of LGSpecialTrainingFramework.'
 
   s.description      = <<-DESC
@@ -22,7 +22,7 @@ TODO: Add long description of the pod here.
   
   s.resources = 'LGSpecialTrainingFramework/Assets/LGSpecialTrainingFramework.bundle'
   
-  #s.dependency 'AFNetworking','3.2.1'
+  s.dependency 'AFNetworking','3.2.1'
   s.dependency 'Masonry'
   s.dependency 'JSONModel'
   s.dependency 'SDWebImage'
