@@ -9,6 +9,9 @@
 #ifndef LGSpecialTrainingVersion_h
 #define LGSpecialTrainingVersion_h
 
+/** 版本：0.1.9    2019-08-17 */
+/** 1、实用化问题优化  */
+
 /** 版本：0.1.8    2019-08-14 */
 /** 1、词汇听写流程调整  */
 
