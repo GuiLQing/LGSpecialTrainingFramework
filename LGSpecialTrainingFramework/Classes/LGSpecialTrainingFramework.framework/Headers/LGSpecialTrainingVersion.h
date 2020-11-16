@@ -9,6 +9,9 @@
 #ifndef LGSpecialTrainingVersion_h
 #define LGSpecialTrainingVersion_h
 
+/** 版本：0.3.4    2019-11-16 */
+/** 1、问题优化；  */
+
 /** 版本：0.3.3    2019-11-10 */
 /** 1、问题优化；  */
 
