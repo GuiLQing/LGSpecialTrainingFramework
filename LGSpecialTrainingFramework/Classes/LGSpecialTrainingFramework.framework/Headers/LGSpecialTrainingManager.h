@@ -71,9 +71,6 @@ NS_ASSUME_NONNULL_BEGIN
 /// 跳转专业化过关训练首页
 @property (nonatomic, copy, readonly) void (^presentSpecialTrainingHomeViewController)(UIViewController *fromController);
 
-/// 测试界面
-@property (nonatomic, copy, readonly) void (^presentSpecialTrainingTestViewController)(UIViewController *fromController);
-
 @end
 
 NS_ASSUME_NONNULL_END
